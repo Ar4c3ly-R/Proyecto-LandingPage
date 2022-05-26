@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.body{
+    background-color: rgb(250, 237, 250);
+    margin-top:0%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 65% 20%;
+    align-content: space-between;
+    height: 660px;
+    margin: 0px;
+    padding-left: 140px;
+    padding-right: 160px;
+}
+.menu_nav{
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 40% 8% 52%;
+    padding-top: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;;
+}
+#desplegable{
+    color: black;
+}
+.texto{
+    color: black;
+    text-decoration: none;
+}
+.texto:hover{
+    text-decoration:underline;
+}
+.button{
+    grid-column-start: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;;
+    font-size: 14px;
+}
+#ventas{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(40, 1, 77);
+    font-size: 13px;
+    font-weight: 550;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+#ventas:hover{
+    border: 3px solid;
+}
+#prueba{
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(87, 2, 95);
+    border-radius: 5px;
+    border:0ch;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    height: 30px;
+    width: 180px;
+    text-decoration: none;
+}
+#prueba:hover{
+    background-color: rgb(73, 2, 80);
+}
+.Contenido{
+    grid-column: 1/ span 2;
+    grid-row: 2;
+    height: 200px;
+}
+.Contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: start;
+}
+.Slack{
+    display: grid;
+    height: 400px;
+}
+#Titulo{
+    font-size: 52px;
+    width: 500px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+#parrafo{
+    font-family: Arial, Helvetica, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    width: 470px;
+    margin-top: 0px;
+}
+#buttonPrueba{
+    background-color: rgb(106, 44, 111);
+    border-radius: 5px;
+    border:0ch;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    height: 40px;
+    width: 480px;
+    text-align: center;
+    padding-top: 20px;
+}
+#buttonPrueba:hover{
+    background-color: rgb(73, 2, 80);
+}
+#buttonGoogle{
+    background-color: rgba(8, 109, 163, 0.71);
+    border-radius: 5px;
+    border:0ch;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+#googleLogo{
+    height: 45px;
+    padding-left: 10px;
+}
+.imagSlack{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 30px;
+    
+}
+#message{
+    display: flex;
+    align-items: flex-end;
+    height: 340px;
+}
+.logos{
+    grid-column: 1/ span 2;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-top: 40px;
+}
+
+#logo-slack{
+    height: 50px;
+}
+#log{
+    height: 28px;
+}
+#log2{
+    height: 65px;
+}
+#log3{
+    height: 40px;
+}
+.mns{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    height: 50px;
+}
+.mns1{
+    grid-column: 1;
+    grid-row-start: 1;
+    background-color: rgb(250, 237, 250);
+    display: grid;
+    justify-content: flex-end;
+     
+}
+.mns2{
+    grid-row-start: 2;
+
+}
+#cuadroMns{
+    height: 50px;
+    padding-right: 60px;
+}
